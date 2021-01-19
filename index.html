@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularze</title>
+</head>
+
+<body>
+
+    <form action="https://formspree.io/f/mvovlgdl" method="POST">
+        <label for="name">Imię i nazwisko:</label>
+        <input type="text" name="name" id="name"><br>
+
+        <label for="email">Adres email:</label>
+        <input type="email" name="email" id="email"><br>
+
+        <label for="phone">Telefon:</label>
+        <input type="tel" name="phone" id="phone"><br>
+
+        <label for="city">Wybór miasta</label>
+        <select name="city" id="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa" selected>Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select><br>
+
+        <label>Płeć</label>
+        <label><input type="radio" name="Kobieta" id="Kobieta">Kobieta </label>
+        <label><input type="radio" name="Mężczyzna" id="Mężczyzna">Mężczyzna</label><br>
+
+        <label for="agreement">Zgoda na dane osobowe</label>
+        <input type="checkbox" name="agreement" id="agreement"><br>
+
+        <label for="messange">Wiadomość</label><br>
+        <textarea name="messange" maxlength="1000" id="messange"></textarea><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+
+</body>
+
+</html>
